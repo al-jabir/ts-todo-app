@@ -17,7 +17,7 @@ export interface Todo {
       console.log(`✅ To-Do added:`, newTodo);
     }
   
-    // 📋 View all to-dos
+    // 📋 View all to-do
     getTodos(): void {
       if (this.todos.length === 0) {
         console.log(`📋 No to-dos available.`);
